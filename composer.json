@@ -1,6 +1,6 @@
 {
-	"name": "DarrenInwood/silverstripe-pdf-thumbnailer",
-	"description": "Create images from your PDF files",
+	"name": "nobrainerweb/silverstripe-pdf-thumbnailer",
+	"description": "Generates thumbnail images for PDF files using ImageMagick.",
 	"type": "silverstripe-module",
 	"homepage": "https://github.com/DarrenInwood/silverstripe-pdf-thumbnailer",
 	"keywords": [
