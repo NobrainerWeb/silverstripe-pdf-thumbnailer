@@ -1,6 +1,6 @@
 <?php
 
-class PdfThumbnailerExtension extends DataObjectDecorator {
+class PdfThumbnailerExtension extends DataExtension {
 
     public static $convert_path = '/usr/bin/convert';
 
@@ -31,4 +31,3 @@ var_dump( $command );
     }
 
 }
-
