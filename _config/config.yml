@@ -1,0 +1,6 @@
+---
+Name: pdf-thumbnailer
+---
+File:
+  extensions:
+    - PdfThumbnailerExtension
