@@ -19,7 +19,7 @@ class PdfThumbnailerExtension extends DataExtension {
             if ( $img ) return $img;
         }
         // Create and cache the thumbnail
-        $command = self::$convert_path.' '.escapeshellarg($file_filename.'['.((int)$page-1).']').' -quality 90 '.escapeshellarg(Director::baseFolder().'/'.$cache_filename);
+        $command = self::$convert_path.' '.escapeshellarg($file_filename.'['.((int)$page-1).']').' -density 200x200 -quality 100 '.escapeshellarg(Director::baseFolder().'/'.$cache_filename);
         $out = shell_exec($command);
         //var_dump( $command );
         if ( ! file_exists(Director::baseFolder().'/'.$cache_filename) ) return false;
